@@ -48,15 +48,14 @@ void loop() {
           break;
     }
   }
-  
+
+  if (running) {
+  //Write the pattern to the LEDs
   for (int ledpin=0; ledpin <= 4; ledpin++){
       digitalWrite(ledpin + 2, pattern[sequence][ledpin]);
    }
-  
-  delay(speed);
-  
-  if (running) {
-    sequence = (sequence + 1) % 4;
+   delay(speed);
+   sequence = (sequence + 1) % 4;
   }
 }
 
