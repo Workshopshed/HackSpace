@@ -13,4 +13,6 @@ The decoration is in the form of the 4 letters of XMAS. These are filled with gr
 
 Marvellous mechanical music box
 
-Another combination of woodwork and electronics, this time with no coding. Two 555 timers provide a monostable and astable to control a modified servo to drive a mechanical music mechanism
+Another combination of woodwork and electronics, this time with no coding. Two 555 timers provide a monostable and astable to control a modified servo to drive a mechanical music mechanism. The stripboard design was done using KiCAD based on the following article.
+
+https://hobbylad.wordpress.com/2013/04/26/designing-professional-looking-stripboards-using-kicad/ 
