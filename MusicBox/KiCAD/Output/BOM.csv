@@ -1,0 +1,14 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Q2";"TO-126_Vertical";1;"TIP31";;;
+2;"RV1,RV2";"Potentiometer_Trimmer_Bourns_3266Z";2;"100K";;;
+3;"U1";"DIP-14_W7.62mm";1;"LM556";;;
+4;"C3,C1";"CP_Radial_D5.0mm_P2.00mm";2;"100uF";;;
+5;"D2";"D_A-405_P7.62mm_Horizontal";1;"D_ALT";;;
+6;"Q1";"TO-126_Vertical";1;"BC549";;;
+7;"C2,C4,C5";"C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2";3;"10nF";;;
+8;"R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";1;"100K";;;
+9;"R4,R3,R1,R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";4;"1K";;;
+10;"M1";"PINHEAD1-2";1;"Motor_DC";;;
+11;"J2";"PINHEAD1-3";1;"Conn_01x03";;;
+12;"J1";"PINHEAD1-2";1;"Conn_01x02";;;
+13;"D1";"D_DO-35_SOD27_P7.62mm_Horizontal";1;"D_ALT";;;
