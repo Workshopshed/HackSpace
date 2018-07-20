@@ -25,9 +25,11 @@ Designed in Fusion360 and build using simple hand tools.
 Font stencil from Jayde Garrow 
 https://www.dafont.com/army-rust.font
 
-## HACKSPACE SIGN
+## HACK SPACE SIGN
 
-A faux Neon sign using an Adafruit Trinket M0 and Micropython to light up when motion is detected.
+An EL Wire sign that lights up when there are people moving about in the room
+Controlled using CircuitPython and an AdaFruit Trinket
+Ultrabright EL Wire and drivers from EL Wire Craft
 
 https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/overview
 

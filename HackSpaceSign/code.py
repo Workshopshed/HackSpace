@@ -2,7 +2,7 @@ import board
 import digitalio
 import time
 
-#Check these pins
+#Setup the Pins
 ELHack = digitalio.DigitalInOut(board.D0)
 ELHack.direction = digitalio.Direction.OUTPUT
 
