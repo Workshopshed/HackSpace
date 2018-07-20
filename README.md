@@ -25,6 +25,12 @@ Designed in Fusion360 and build using simple hand tools.
 Font stencil from Jayde Garrow 
 https://www.dafont.com/army-rust.font
 
+## HACKSPACE SIGN
+
+A faux Neon sign using an Adafruit Trinket M0 and Micropython to light up when motion is detected.
+
+https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/overview
+
 ## ROBOTIC WATER SENTRY
 
 The robot water sentry uses the Google AIY Vision kit to detect humans an squirt them with water.
