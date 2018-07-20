@@ -1,0 +1,13 @@
+#/lib/systemd/system/water_sentry.service
+
+[Unit]
+Description=Robot Water Sentry
+
+[Service]
+Type=simple
+Restart=no
+User=pi
+ExecStart=/usr/bin/python3 /home/pi/AIY-projects-python/src/examples/vision/human_detection_camera.py
+
+[Install]
+WantedBy=multi-user.target
