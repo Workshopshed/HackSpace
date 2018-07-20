@@ -24,3 +24,11 @@ Designed in Fusion360 and build using simple hand tools.
 
 Font stencil from Jayde Garrow 
 https://www.dafont.com/army-rust.font
+
+## ROBOTIC WATER SENTRY
+
+The robot water sentry uses the Google AIY Vision kit to detect humans an squirt them with water.
+
+To make it easy to turn on and off there's a Pimoroni On/Off shim. After further research it was concluded that the default installer for this works just fine.
+
+https://shop.pimoroni.com/products/onoff-shim
