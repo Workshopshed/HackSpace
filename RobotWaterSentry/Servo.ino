@@ -9,6 +9,7 @@ const int speedPin = 5; //Needs to support PWM
 
 short registers[5];
 int readCmd;
+int blink = 0;
 
 enum readRegisters { Target = 0,
                      Running = 1,
@@ -23,15 +24,12 @@ enum commands { CmdStop = 1,
               };
 
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);  // start serial for output
-  Serial.println("Servo Starting");
-
   stop();
 
   pinMode(drivePin1, OUTPUT);
   pinMode(drivePin2, OUTPUT);
   pinMode(speedPin, OUTPUT);
+  pinMode(13, OUTPUT);        //Onboard LED
   pinMode(sensePin, INPUT);
 
   Wire.begin(slaveAddress);                // join i2c bus with address #8
@@ -41,6 +39,9 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(13, blink);
+  blink = !blink;  
+  
   registers[Position] = analogRead(sensePin);
 
   if (registers[Running]) {
@@ -55,16 +56,6 @@ void loop() {
       }
     }
   }
- /*
-  Serial.print("Actual position ");
-  Serial.print(registers[Position]);
-  Serial.print(" Target position");
-  Serial.print(registers[Target]);
-  Serial.print(" Speed");
-  Serial.print(registers[Speed]);
-  Serial.print(" Moving? ");
-  Serial.println(registers[Running]);
-  */
 }
 
 void stop() {
@@ -81,26 +72,18 @@ void receiveEvent(int bytesReceived) {
   int value;
   int lowB;
   int highB;
-  Serial.print("WriteRequest:");
-  Serial.print(bytesReceived);
-  Serial.print(" ");
 
   switch (bytesReceived) {
     case 1:
       //Read request register
       readCmd = Wire.read();
-      Serial.print("Read address:");
-      Serial.println(readCmd, DEC);
       break;
     case 3:
       command = Wire.read(); // receive byte as a character
-      Serial.print(command, DEC);
-      Serial.print(" ");
       //Pi is low endian
       lowB = Wire.read();
       highB = Wire.read();
       value = (highB << 8) | lowB;
-      Serial.println(value);   // print the reading
 
       switch (command) {
         case CmdStop:
@@ -110,9 +93,13 @@ void receiveEvent(int bytesReceived) {
           registers[Target] = value;
           registers[Running] = true;
           if (registers[Target] > registers[Position]) {
+            digitalWrite(drivePin1, LOW);
+            digitalWrite(drivePin2, HIGH);
             registers[Direction] = 1;
           }
           else {
+            digitalWrite(drivePin2, LOW);
+            digitalWrite(drivePin1, HIGH);            
             registers[Direction] = -1;
           }
           break;
