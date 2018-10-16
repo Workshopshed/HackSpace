@@ -61,3 +61,5 @@ https://shop.pimoroni.com/products/onoff-shim
 https://hackspace.raspberrypi.org/issues/9
 
 ![alt text](RobotWaterSentry/Game2.jpg "Water Sentry Game")
+
+See also https://github.com/Workshopshed/JumboServo
