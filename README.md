@@ -11,6 +11,8 @@ The decoration is in the form of the 4 letters of XMAS. These are filled with gr
 
 https://hackspace.raspberrypi.org/issues/1
 
+![alt text](XMAS/Finished.jpg "Christmas Lights")
+
 ## MUSIC BOX
 
 Marvellous mechanical music box
@@ -20,6 +22,9 @@ Another combination of woodwork and electronics, this time with no coding. Two 5
 https://hackspace.raspberrypi.org/issues/2
 
 https://hobbylad.wordpress.com/2013/04/26/designing-professional-looking-stripboards-using-kicad/ 
+
+![alt text](MusicBox/MusicBox_11_MusicBox.jpg "Music Box")
+
 
 ## GRINDER BOX
 
@@ -31,6 +36,8 @@ https://www.dafont.com/army-rust.font
 
 https://hackspace.raspberrypi.org/issues/3
 
+![alt text](GrinderBox/GrinderBox.jpg "Grinder Box")
+
 ## HACK SPACE SIGN
 
 An EL Wire sign that lights up when there are people moving about in the room
@@ -41,6 +48,8 @@ https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/overview
 
 https://hackspace.raspberrypi.org/issues/7
 
+![alt text](HackSpaceSign/Sign.jpg "HackSpace")
+
 ## ROBOTIC WATER SENTRY
 
 The robot water sentry uses the Google AIY Vision kit to detect humans an squirt them with water.
@@ -50,3 +59,5 @@ To make it easy to turn on and off there's a Pimoroni On/Off shim. After further
 https://shop.pimoroni.com/products/onoff-shim
 
 https://hackspace.raspberrypi.org/issues/9
+
+![alt text](RobotWaterSentry/Game2.jpg "Water Sentry Game")
