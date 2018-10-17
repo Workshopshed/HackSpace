@@ -19,7 +19,7 @@ Marvellous mechanical music box
 
 Another combination of woodwork and electronics, this time with no coding. Two 555 timers provide a monostable and astable to control a modified servo to drive a mechanical music mechanism. The stripboard design was done using KiCAD based on the following article.
 
-https://hackspace.raspberrypi.org/issues/2
+https://hackspace.raspberrypi.org/issues/2 + https://hackspace.raspberrypi.org/features/the-book-of-making-volumn-1-out-now
 
 https://hobbylad.wordpress.com/2013/04/26/designing-professional-looking-stripboards-using-kicad/ 
 
@@ -34,7 +34,7 @@ Designed in Fusion360 and build using simple hand tools.
 Font stencil from Jayde Garrow 
 https://www.dafont.com/army-rust.font
 
-https://hackspace.raspberrypi.org/issues/3
+https://hackspace.raspberrypi.org/issues/3 + https://hackspace.raspberrypi.org/features/the-book-of-making-volumn-1-out-now
 
 ![alt text](GrinderBox/GrinderBox.jpg "Grinder Box")
 
@@ -46,7 +46,7 @@ Ultrabright EL Wire and drivers from EL Wire Craft
 
 https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/overview
 
-https://hackspace.raspberrypi.org/issues/7
+https://hackspace.raspberrypi.org/issues/7 + https://hackspace.raspberrypi.org/features/the-book-of-making-volumn-1-out-now
 
 ![alt text](HackSpaceSign/Sign.jpg "HackSpace")
 
@@ -58,7 +58,7 @@ To make it easy to turn on and off there's a Pimoroni On/Off shim. After further
 
 https://shop.pimoroni.com/products/onoff-shim
 
-https://hackspace.raspberrypi.org/issues/9
+https://hackspace.raspberrypi.org/issues/9 + https://hackspace.raspberrypi.org/features/the-book-of-making-volumn-1-out-now
 
 ![alt text](RobotWaterSentry/Game2.jpg "Water Sentry Game")
 
