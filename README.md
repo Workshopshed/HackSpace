@@ -11,7 +11,7 @@ The decoration is in the form of the 4 letters of XMAS. These are filled with gr
 
 https://hackspace.raspberrypi.org/issues/1
 
-![alt text](XMAS/Finished.jpg "Christmas Lights")
+![Christmas Lights](XMAS/Finished.jpg "Christmas Lights")
 
 ## MUSIC BOX
 
@@ -23,7 +23,7 @@ https://hackspace.raspberrypi.org/issues/2 + https://hackspace.raspberrypi.org/f
 
 https://hobbylad.wordpress.com/2013/04/26/designing-professional-looking-stripboards-using-kicad/ 
 
-![alt text](MusicBox/MusicBox_11_MusicBox.jpg "Music Box")
+![Music Box](MusicBox/MusicBox_11_MusicBox.jpg "Music Box")
 
 
 ## GRINDER BOX
@@ -36,7 +36,7 @@ https://www.dafont.com/army-rust.font
 
 https://hackspace.raspberrypi.org/issues/3 + https://hackspace.raspberrypi.org/features/the-book-of-making-volumn-1-out-now
 
-![alt text](GrinderBox/GrinderBox.jpg "Grinder Box")
+![Grinder Box](GrinderBox/GrinderBox.jpg "Grinder Box")
 
 ## HACK SPACE SIGN
 
@@ -48,7 +48,7 @@ https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/overview
 
 https://hackspace.raspberrypi.org/issues/7 + https://hackspace.raspberrypi.org/features/the-book-of-making-volumn-1-out-now
 
-![alt text](HackSpaceSign/Sign.jpg "HackSpace")
+![HackSpace Sign](HackSpaceSign/Sign.jpg "HackSpace")
 
 ## ROBOTIC WATER SENTRY
 
@@ -60,6 +60,14 @@ https://shop.pimoroni.com/products/onoff-shim
 
 https://hackspace.raspberrypi.org/issues/9 + https://hackspace.raspberrypi.org/features/the-book-of-making-volumn-1-out-now
 
-![alt text](RobotWaterSentry/Game2.jpg "Water Sentry Game")
+![Water Sentry Game](RobotWaterSentry/Game2.jpg "Water Sentry Game")
 
 See also https://github.com/Workshopshed/JumboServo
+
+## MONKEY SKULL BOWL
+
+A simple project using the AdaFruit Gemma M0. Take care not to burn yourself when making the jewelled LED eyes.
+
+https://hackspace.raspberrypi.org/issues/12
+
+![Skull](Skull/Skull.jpg "Monkey Skull Bowl")
