@@ -74,9 +74,11 @@ https://hackspace.raspberrypi.org/issues/12
 
 ## KNIFE SWITCH
 
-Unleash your inner mad scientist with this remote controlled knife switch.
+Unleash your inner mad scientist with this remote controlled knife switch. Using an Energenie remote control.
 
 ![Knife Switch](KnifeSwitch/KnifeSwitch.jpg "Knife Switch")
+
+https://github.com/learn2develop/Arduino_Energenie_Pimote
 
 https://hackspace.raspberrypi.org/issues/13
 
