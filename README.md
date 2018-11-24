@@ -71,3 +71,13 @@ A simple project using the AdaFruit Gemma M0. Take care not to burn yourself whe
 https://hackspace.raspberrypi.org/issues/12
 
 ![Skull](Skull/Skull.jpg "Monkey Skull Bowl")
+
+## KNIFE SWITCH
+
+Unleash your inner mad scientist with this remote controlled knife switch.
+
+![Knife Switch](KnifeSwitch/KnifeSwitch.jpg "Knife Switch")
+
+https://hackspace.raspberrypi.org/issues/13
+
+
