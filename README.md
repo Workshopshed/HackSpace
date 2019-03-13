@@ -82,4 +82,11 @@ https://github.com/learn2develop/Arduino_Energenie_Pimote
 
 https://hackspace.raspberrypi.org/issues/13
 
+## ROUTER TRAY
+
+When working with small components one of the best ways to store them for easy access is a shallow tray. So this project is a useful storage project made using a handheld router.
+
+![Tray](RouterTray/Tray.jpg "Router Tray")
+
+https://hackspace.raspberrypi.org/issues/13
 
