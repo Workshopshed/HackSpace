@@ -90,3 +90,9 @@ When working with small components one of the best ways to store them for easy a
 
 https://hackspace.raspberrypi.org/issues/13
 
+## REMOTE DISPLAY
+
+Show info and status from your home automation system with a low powered E-Ink display.
+
+![Remote Display](RemoteDisplay/RemoteDisplayUnit.JPG "Remote Display")
+
