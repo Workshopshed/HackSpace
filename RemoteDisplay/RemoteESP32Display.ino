@@ -16,6 +16,7 @@ WiFiClient espClient;
 PubSubClient mqttClient (espClient);
 long lastSend = 0;
 String clienttopic = "";
+String clientId;
 
 U8G2_FOR_ADAFRUIT_GFX u8g2Fonts;
 GxEPD2_3C<GxEPD2_154c, GxEPD2_154c::HEIGHT> display(GxEPD2_154c(/*CS=5*/ SS, /*DC=*/ 17, /*RST=*/ 16, /*BUSY=*/ 4));
@@ -51,6 +52,9 @@ void setup_Display() {
 }
 
 void setup_MQTT() {
+  clientId = "ESP32Client-";
+  // Create a random client ID
+  clientId += String(random(0xffff), HEX);
   mqttClient.setServer(mqtt_server, mqtt_port);
   mqttClient.setCallback(on_Msg);  
 }
@@ -135,9 +139,6 @@ void reconnect() {
   // Loop until we're reconnected
   while (!mqttClient.connected()) {
     Serial.print("Attempting MQTT connection...");
-    // Create a random client ID
-    String clientId = "ESP32Client-";
-    clientId += String(random(0xffff), HEX);
     // Attempt to connect
     if (mqttClient.connect(clientId.c_str())) {
       Serial.println("connected");
