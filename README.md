@@ -98,4 +98,10 @@ Show info and status from your home automation system with a low powered E-Ink d
 
 https://hackspace.raspberrypi.org/issues/17
 
+## BINARY KEYBOARD
 
+By using a microcontroller that supports a HID (Human Interface Device) we can have a keyboard that lets you type the ASCII codes for the letters using just two keys a one and a zero
+
+![Binary Keyboard](BinaryKeyboard\BinaryKeyboard.JPG "Binary Keyboard")
+
+https://hackspace.raspberrypi.org/issues/17
