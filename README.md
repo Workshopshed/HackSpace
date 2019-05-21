@@ -104,4 +104,4 @@ By using a microcontroller that supports a HID (Human Interface Device) we can h
 
 ![Binary Keyboard](BinaryKeyboard/BinaryKeyboard.JPG "Binary Keyboard")
 
-https://hackspace.raspberrypi.org/issues/17
+https://hackspace.raspberrypi.org/issues/18
